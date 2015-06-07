@@ -1,0 +1,91 @@
+body {
+  /* Typography Declarations */
+  font-size: 1em;
+  color: #FE6756;
+  font-family: "Lato", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url("https://download.unsplash.com/photo-1428279148693-1cf2163ed67d");
+  background-repeat: no repeat;
+  background-size: cover;
+  border-top: solid 1em #FE6756;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 0px #485772;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  color: #FE6756;
+}
+
+.introduction > p,
+.location > p,
+.content-footer > p {
+  /* Typography Declarations */  
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /*Typography Declarations*/ 
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.social > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.social{
+  /*Layout Declarations */
+  padding: 0;
+  /*Appearance Declarations */
+  list-style: none;
+}
+.content-footer  > p {
+  color: white;
+}
+
+.content-footer a {
+  color: #FE6756;
+}
+
+.content-footer{
+  /* Layout Declarations */
+  margin-top: 5em;
+  padding: 4em 0;
+  /* Appearance Rules */
+background-color: #485772;
+}
+}
+
+
